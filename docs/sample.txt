@@ -1,0 +1,14 @@
+SAMPLE KNOWLEDGE BASE DOCUMENT
+================================
+This is a sample document to test the RAG pipeline.
+
+Refund Policy:
+Customers may request a full refund within 30 days of purchase.
+Refunds are processed within 5-7 business days.
+
+Support Hours:
+Our support team is available Monday through Friday, 9am to 5pm EST.
+For urgent issues, email support@example.com.
+
+Product Warranty:
+All products carry a 1-year limited warranty covering manufacturing defects.
