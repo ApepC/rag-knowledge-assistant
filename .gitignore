@@ -1,9 +1,21 @@
-.env
+# --- CHROMA DB (CRITICAL) ---
+# Default persistent storage directories (contains your vector DB & SQLite)
+.chroma/
+chroma/
 chroma_db/
+*.sqlite3
+*.sqlite
+
+# --- PYTHON ---
+.env
+.env.local
 __pycache__/
 *.pyc
 .venv/
 venv/
 *.egg-info/
 dist/
+
+# --- OS ---
 .DS_Store
+Thumbs.db   
