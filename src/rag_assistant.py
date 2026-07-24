@@ -2,7 +2,7 @@
 rag_assistant.py - RAG-Powered Knowledge Base Assistant
 ========================================================
 Author: CS
-GitHub: github.com/BobboB
+GitHub: github.com/ApepC
 
 Natural language Q&A over custom document collections using
 Retrieval-Augmented Generation (RAG).
