@@ -164,7 +164,7 @@ def create_app() -> FastAPI:
         title="RAG Knowledge Base Assistant",
         description="Natural language Q&A over custom document collections.",
         version="1.0.0",
-        contact={"name": "CS", "url": "https://github.com/BobboB"},
+        contact={"name": "CS", "url": "https://github.com/ApepC"},
     )
     app.add_middleware(
         CORSMiddleware,
