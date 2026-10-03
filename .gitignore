@@ -1,21 +1,49 @@
 # --- CHROMA DB (CRITICAL) ---
-# Default persistent storage directories (contains your vector DB & SQLite)
 .chroma/
 chroma/
 chroma_db/
 *.sqlite3
 *.sqlite
+*.db
 
 # --- PYTHON ---
 .env
 .env.local
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 .venv/
 venv/
+env/
 *.egg-info/
+*.egg
+.eggs/
+build/
 dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- LOGS ---
+*.log
+logs/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
 # --- OS ---
 .DS_Store
-Thumbs.db   
+Thumbs.db
+
+# --- LOCAL DATA ---
+# Uncomment if you don't want to commit ingested documents
+# data/
+# documents/
+# uploads/
